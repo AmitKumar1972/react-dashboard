@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import React from "react";
+import Sidebar from "./components/Sidebar";
+import Scrollbars from "react-custom-scrollbars-2";
+import { blue } from "@mui/material/colors";
+import Headbar from "./components/Headbar";
+import Footbar from "./components/Footbar";
+import Navbar from "./components/Navbar";
+import Part1 from "./components/Part1";
+import Part2 from "./components/Part2";
+import Part3 from "./components/Part3";
+import Part5 from "./components/Part5";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="Side">
+        <Scrollbars style={{ width: 300, height: 800, color: blue }}>
+          <Headbar />
+          <Sidebar />
+          <Footbar />
+        </Scrollbars>
+      </div>
+      <div className="BodyPart">
+        <Navbar />
+        <Part1 />
+        <Part2 />
+        <Part3 />
+        <Part5 />
+      </div>
     </div>
   );
 }
