@@ -14,11 +14,9 @@ function App() {
   return (
     <div className="App">
       <div className="Side">
-        <Scrollbars style={{ width: 300, height: 800, color: blue }}>
-          <Headbar />
-          <Sidebar />
-          <Footbar />
-        </Scrollbars>
+        <Headbar />
+        <Sidebar />
+        <Footbar />
       </div>
       <div className="BodyPart">
         <Navbar />

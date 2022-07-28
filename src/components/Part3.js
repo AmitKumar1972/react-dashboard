@@ -13,15 +13,8 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 function Part3() {
   return (
     <div className="Part3">
-      <div className="Card1">
-        <Card
-          sx={{
-            display: "flex",
-            width: 480,
-            height: 200,
-            flexDirection: "column",
-          }}
-        >
+      <div className="Part3Card">
+        <Card className="Card1">
           <Box sx={{ display: "flex", flexDirection: "row" }}>
             <CardContent>
               <Typography component="div" variant="h5">
@@ -86,15 +79,8 @@ function Part3() {
         </Card>
       </div>
       <div>
-        <div className="Card2">
-          <Card
-            sx={{
-              display: "flex",
-              width: 480,
-              height: 200,
-              flexDirection: "column",
-            }}
-          >
+        <div className="Part3Card">
+          <Card className="Card1">
             <Box sx={{ display: "flex", flexDirection: "row" }}>
               <CardContent>
                 <Typography component="div" variant="h5">

@@ -9,11 +9,7 @@ function Footbar() {
         <p id="text1">Need Help?</p>
         <p id="text2">Check Our Docs</p>
       </div>
-      <Button
-        id="button"
-        style={{ width: 250, height: 50, color: green }}
-        variant="contained"
-      >
+      <Button id="button" variant="contained">
         Documentation
       </Button>
     </div>

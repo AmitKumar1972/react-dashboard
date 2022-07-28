@@ -7,9 +7,9 @@ function Part2() {
       <div className="Part2">
         <div>
           <img
+            id="image1"
             alt="Amit"
             src={process.env.PUBLIC_URL + "/banner-illustration.png"}
-            style={{ width: 250, height: 250 }}
           />
         </div>
         <div className="Part2Content">

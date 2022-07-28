@@ -17,15 +17,7 @@ import { PeopleAlt } from "@mui/icons-material";
 function Part5() {
   return (
     <div className="Part5">
-      <Card
-        id="Part51"
-        sx={{
-          display: "flex",
-          width: 480,
-          height: 200,
-          flexDirection: "column",
-        }}
-      >
+      <Card id="Part51" class="Card">
         <Box
           sx={{
             display: "flex",
@@ -79,15 +71,7 @@ function Part5() {
         </CardActions>
       </Card>
 
-      <Card
-        id="Part52"
-        sx={{
-          display: "flex",
-          width: 480,
-          height: 200,
-          flexDirection: "column",
-        }}
-      >
+      <Card id="Part52" class="Card">
         <Box
           sx={{
             display: "flex",
@@ -141,15 +125,7 @@ function Part5() {
         </CardActions>
       </Card>
 
-      <Card
-        id="Part53"
-        sx={{
-          display: "flex",
-          width: 480,
-          height: 220,
-          flexDirection: "column",
-        }}
-      >
+      <Card id="Part53" class="Card">
         <Box
           sx={{
             display: "flex",
@@ -203,15 +179,7 @@ function Part5() {
         </CardActions>
       </Card>
 
-      <Card
-        id="Part54"
-        sx={{
-          display: "flex",
-          width: 480,
-          height: 220,
-          flexDirection: "column",
-        }}
-      >
+      <Card id="Part54" class="Card">
         <Box
           sx={{
             display: "flex",

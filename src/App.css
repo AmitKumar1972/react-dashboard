@@ -7,16 +7,16 @@
 }
 
 .BodyPart{
-  background-color: #f9fafc;
+  background-color: #f6f8fa;
 }
 
 body {
-  margin: 0px;
-  padding-top: 0px;
+  margin: 0;
+  padding-top: 0;
 }
 
 .Sidebar{
-  display: flex;
+  display: none;
   height: auto;
   width: 21vw;
   flex-direction: column;
@@ -27,18 +27,18 @@ body {
 .SidebarList{
   height: 100%;
   width: 100%;
-  padding: 0px;
+  padding: 0;
 }
 
 .SidebarList .row{
   display: flex;
-  height: 40px;
+  height: 3vw;
   width: 20vw;
   list-style-type: none;
-  padding: 0px;
+  padding: 0;
   flex-direction: row;
   color: rgb(203,204,213);
-  font-size: 15px;
+  font-size: 1.2vw;
   font-weight: 600;
   justify-content: center;
   align-items: center;
@@ -53,30 +53,29 @@ body {
 
 .row #title{
   flex:70%;
-  margin:10px;
-
+  margin: 0.8vw;
 }
 
 
 .SidebarList .row:hover{
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 1vw;
   background-color: rgb(36,42,56);
 }
 
 
 .SidebarList .Category{
   margin-left: 50px;
-  height: 20px;
+  height: 6vh;
   width: 20vw;
   color: rgb(99,104,122);
   font-weight: bolder;
-  font-size: small;
+  font-size: 1vw;
 }
 
 .Headbar{
-  display: flex;
-  height: 200px;
+  display: none;
+  height: 16vw;
   width: 21vw;
   flex-direction: column;
   border-bottom: 0.1pt solid;
@@ -86,24 +85,24 @@ body {
 
 
 .premium{
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   background-color: rgb(26,33,47);
-  width: 250px;
-  height:75px;
-  margin:20px;
+  width: 18vw;
+  height:6vw;
+  margin: 2vw;
   border-radius: 10px;
 }
 
 #Acme{
-  margin-top: 20px;
+  margin-top: 2vw;
   color: white;
-  width: 100px;
-  height:5px;
+  width: 10vw;
+  height:1vh;
   display: grid;
   font-weight: bold;
-  margin-left: 20px;
+  margin-left: 2vw;
 }
 
 #Tier{
@@ -111,19 +110,19 @@ body {
   flex-direction: row;
   justify-content: space-between;
   color: rgb(229, 231, 240);
-  margin:20px;
+  margin:2vw;
 }
 
 .logo{
-  margin-top: 22px;
-  margin-left: 27px;
+  margin-top: 2.2vw;
+  margin-left: 2.77vw;
 }
 
 .Footbar{
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 150px;
+  height: 20vh;
   width: 21vw;
   border-top: 0.1px solid white;
   background-color: rgb(17,24,39);
@@ -135,7 +134,8 @@ p{
 }
 
 #button{
-  margin-left: 20px;
+  margin-left: 2vw;
+  width:16vw;
 }
 #text2{
 color: rgb(203,204,213);
@@ -146,13 +146,14 @@ color: rgb(203,204,213);
   display: flex;
   flex-direction: row-reverse;
   align-items: flex-end;
-  width: 1050px;
-  height:55px;
+  width: 76vw;
+  height:4vw;
   background-color:white;
+  position: static;
 }
 
 .Navbar div{
-  margin: 10px 20px 10px 10px;
+  margin: 1vw 2vw 1vw 1vw;
 }
 
 
@@ -166,33 +167,33 @@ color: rgb(203,204,213);
 .Part1 .Part1Flex{
   display: flex;
   flex-direction: row;
-  width: 300px;
-  height:130px;
+  width: 20vw;
+  height:10vw;
   justify-content: space-evenly;
   align-items: flex-end;
 
 }
 
 .Part1 #Report{
-  width:150px;
+  width:12vw;
   border-radius: 10px;
   border: 1px solid blue;
 }
 
 .Part1 #LastWeek{
-  width: 150px;
-  height: 50px;
+  width: 11vw;
+  height: 4vw;
   border-radius: 10px;
   border: 1px solid rgb(155, 155, 161);
 }
 
 .Part1Flex div{
-  margin: 10px;
+  margin: 1vw;
 }
 
 h1{
-  margin-left: 15px;
-  margin-top: 80px;
+  margin-left: 1.5vw;
+  margin-top: 8vw;
 }
 
 #text{
@@ -203,35 +204,44 @@ h1{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 15px;
-  width:1000px;
-  height: 250px;
+  margin-top: 1.5vw;
+  margin-bottom: 1.5vw;
+  margin-left: 1.5vw;
+  width:76vw;
+  height: 45vh;
   border-radius: 10px;
   background-color: rgb(80,72,229);
 
 }
 
 #image{
-  margin: -8px;
+  margin: -0.8vw;
 }
 
+#image1{
+  width:250px;
+  height:250px;
+}
+
+
 .Part2Content div{
-  height:30px;
+  height:2vw;
   color:white;
   font-weight: 500;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-top: 2vw;
+  margin-left: 10px;
+  margin-right: 2vw;
 }
 
 .Part2Content div#Part2ContentText2{
-  font-size: large;
+  font-size: 1vw;
 }
 
 .Part2Content h1{
   margin: 0;
 }
 #Part2ContentText1{
-  width: 50px;
+  width: 3.2vw;
   border: 0.1px solid rgb(16,185,129);
   overflow: hidden;
   justify-content: center;
@@ -240,9 +250,9 @@ h1{
 }
 
 #Part2ContentText1 p{
-  margin-top: 5px;
-  margin-left:10px;
-  margin-bottom: 5px;
+  margin-top: 0.2vh;
+  margin-left:0.9vh;
+  margin-bottom: 0.5vh;
   font-size: small;
 }
 
@@ -251,15 +261,18 @@ h1{
   flex-direction: row;
 }
 
-.Card1{
-  margin-top: 20px;
-  margin-left: 20px;
+.Part3Card{
+  margin-top: 2vw;
+  margin-left: 2vw;
 }
 
-.Card2{
-  margin-top: 20px;
-  margin-left: 30px;
+.Card1{
+  display: flex;
+  width: 480px;
+  height: 200px;
+  flex-direction: column
 }
+
 
 .Part5{
   display: flex;
@@ -268,21 +281,93 @@ h1{
 }
 
 #Part51{
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-top: 2vw;
+  margin-left: 2vw;
 }
 
 #Part52{
-  margin-top: 20px;
-  margin-left: 30px;
+  margin-top: 2vw;
+  margin-left: 3vw;
 }
  
 #Part53{
-  margin-top: 30px;
-  margin-left: 20px;
+  margin-top: 3vw;
+  margin-left: 2vw;
 }
 
 #Part54{
-  margin-top: 30px;
-  margin-left: 30px;
+  margin-top: 3vw;
+  margin-left: 3vw;
+}
+
+.Card{
+  display: flex;
+  width: 480px;
+  height:200px;
+  flex-direction: column;
+}
+
+
+@media (min-width:1200px){
+  .Footbar{
+    display:flex;
+  }
+  .Headbar{
+    display:flex;
+  }
+  .Sidebar{
+    display:flex;
+  }
+
+  .premium{
+    display:flex;
+  }
+
+}
+
+
+@media (max-width:1200px){
+  .Navbar{
+    width: 99vw;
+  }
+  .Part1{
+    width:97vw
+  }
+
+  .Part2{
+    width:97vw;
+  }
+
+}
+
+@media only screen and (max-width: 1000px) {
+  .Part5{
+    flex-direction: column;
+  }
+.Part2{
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items: center;
+  height:400px
+}
+
+.Part2Content{
+  margin-bottom: 90px;
+}
+#image1{
+  width:150px;
+  height:150px;
+}
+
+  .Part3{
+    flex-direction: column;
+  }
+
+  .Card{
+    width: 97vw;
+  }
+
+  .Card1{
+    width:95vw;
+  }
 }
